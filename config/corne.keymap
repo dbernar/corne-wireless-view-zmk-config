@@ -80,7 +80,7 @@
         compatible = "zmk,conditional-layers";
 
         layermouse {
-            if-layers = <1 2>;
+            if-layers = <1 2 0>;
             then-layer = <3>;
         };
     };
