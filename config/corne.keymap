@@ -11,6 +11,12 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/pointing.h>
 
+#define DEF 0
+#define LOW 1
+#define RAI 2
+#define MOU 3
+
+
 / {
     combos { compatible = "zmk,combos"; };
 
