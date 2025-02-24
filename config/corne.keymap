@@ -49,9 +49,9 @@
             display-name = "Base";
             bindings = <
 &kp TAB     &kp Q                    &kp W                  &kp E                &kp R                &kp T        &kp Y    &kp U                 &kp I                 &kp O                     &kp P                     &kp BSPC
-&kp LSHIFT  &homerow LEFT_CONTROL A  &homerow LEFT_SHIFT S  &homerow LEFT_GUI D  &homerow LEFT_ALT F  &kp G        &kp H    &homerow RIGHT_ALT J  &homerow RIGHT_GUI K  &homerow RIGHT_CONTROL L  &homerow LEFT_SHIFT SEMI  &kp SQT
-&kp LCTRL   &kp Z                    &kp X                  &kp C                &kp V                &kp B        &kp N    &kp M                 &kp COMMA             &kp DOT                   &kp FSLH                  &kp ESC
-                                                            &kp LGUI             &mo 1                &kp SPACE    &kp RET  &mo 2                 &templayer 3 ESC
+&kp LSHIFT  &kp A  &kp S  &kp D  &kp F  &kp G        &kp H    &kp J  &kp K  &kp L  &kp SEMI  &kp SQT
+&kp LCTRL   &kp Z                    &kp X                  &kp C                &kp V                &kp B        &kp N    &kp M                 &kp   COMMA             &kp DOT                   &kp FSLH                  &kp ESC
+                                                            &kp LGUI             &mo 1                &kp SPACE    &kp RET  &mo 2                 &kp ESC
             >;
         };
 
@@ -61,7 +61,7 @@
             label = "LOW";
             bindings = <
 &kp TAB         &kp N1     &kp N2     &kp N3                &kp N4                 &kp N5       &kp N6    &kp N7    &kp N8  &kp N9     &kp N0        &kp BSPC
-&kp LEFT_SHIFT  &homerow LEFT_CONTROL MINUS  &homerow LEFT_SHIFT EQUAL  &homerow LEFT_GUI LEFT_PARENTHESIS  &homerow LEFT_ALT RIGHT_PARENTHESIS  &trans       &homerow RIGHT_ALT LEFT  &homerow RIGHT_GUI DOWN  &homerow RIGHT_CONTROL UP  &homerow LEFT_SHIFT RIGHT  &trans        &kp DOUBLE_QUOTES
+&kp LEFT_SHIFT  &kp MINUS  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans       &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT &trans        &kp DOUBLE_QUOTES
 &kp LCTRL       &trans     &trans     &trans                &trans                 &trans       &trans    &trans    &trans  &trans     &kp QUESTION  &kp QUESTION
                                       &kp LGUI              &trans                 &kp SPACE    &kp RET   &trans    &trans
             >;
